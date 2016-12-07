@@ -2528,7 +2528,6 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
-  text-shadow: none;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -2560,7 +2559,6 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
-  text-shadow: none;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -2590,7 +2588,6 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
-  text-shadow: none;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -2618,7 +2615,6 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
-  text-shadow: none;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -2659,7 +2655,6 @@ body {
 }
 
 .text-1 span {
-  text-shadow: none;
   font-weight: inherit;
   text-decoration: inherit;
 }
@@ -2667,20 +2662,13 @@ body {
 .text-13 span,
 .text-14 span,
 .text-16 span {
-  text-shadow: none;
   font-family: inherit;
   font-weight: 700;
   text-decoration: underline;
 }
 
-.text-18 span {
-  font-family: inherit;
-  font-weight: 700;
-  text-decoration: inherit;
-}
-
+.text-18 span,
 .text-21 span {
-  text-shadow: none;
   font-family: inherit;
   font-weight: 700;
   text-decoration: inherit;
@@ -2701,7 +2689,6 @@ body {
 .text-15 span,
 .text-2 span,
 .text-37 span {
-  text-shadow: none;
   font-family: inherit;
   font-weight: inherit;
   text-decoration: inherit;

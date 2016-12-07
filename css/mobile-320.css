@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(255, 255, 255);
+  font-size: 1em;
+}
+
+.container {
+  width: 100%;
+  height: 480px;
+  margin: 0 auto;
+}
+
+.container-1 {
+  background-color: rgb(64, 103, 204);
+}
+
+.container-2 {
+  background-color: rgb(125, 204, 64);
+}
+
+.container-3 {
+  background-color: rgb(204, 198, 64);
+}

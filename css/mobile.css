@@ -676,6 +676,7 @@ body {
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
   background-color: transparent;
+  text-shadow: none;
   font-family: inherit;
   font-style: inherit;
   font-size: inherit;
@@ -716,12 +717,14 @@ body {
 }
 
 .text-1 span {
+  text-shadow: none;
   font-weight: inherit;
   text-decoration: inherit;
 }
 
 .text-15 span,
 .text-2 span {
+  text-shadow: none;
   font-family: inherit;
   font-weight: inherit;
   text-decoration: inherit;
@@ -730,6 +733,7 @@ body {
 .text-13 span,
 .text-14 span,
 .text-16 span {
+  text-shadow: none;
   font-family: inherit;
   font-weight: 700;
   text-decoration: underline;
