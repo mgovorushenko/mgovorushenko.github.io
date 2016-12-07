@@ -1,22 +1,123 @@
 body {
   background-color: rgb(255, 255, 255);
-  font-size: 1em;
+  font: 400 2.25em/1.38 'PT Serif';
+  color: rgb(255, 255, 255);
 }
 
 .container {
+  position: relative;
+  float: left;
   width: 100%;
-  height: 480px;
+}
+
+.container .container {
+  height: 160px;
+  margin-top: 160px;
+}
+
+.image {
+  display: block;
+  position: absolute;
+  bottom: 45px;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  width: 30px;
+  height: auto;
   margin: 0 auto;
+  overflow: hidden;
+}
+
+.menu {
+  display: block;
+  position: absolute;
+  top: 17px;
+  right: 17px;
+  z-index: 7;
+  width: 42px;
+  height: auto;
+  overflow: hidden;
+}
+
+._button {
+  display: block;
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  z-index: 2;
+  width: 42.8125%;
+  height: 36px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 3px;
+  background-color: rgba(222, 222, 222, 0);
+  font-family: 'PT Sans';
+  font-style: italic;
+  font-size: 0.444em;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+._element {
+  clear: both;
+  height: 480px;
+}
+
+._text {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .container-1 {
-  background-color: rgb(64, 103, 204);
-}
-
-.container-2 {
-  background-color: rgb(125, 204, 64);
+  height: 480px;
+  background: url('../images/back1(7).jpg') rgb(64, 103, 204);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10% 0%;
 }
 
 .container-3 {
+  z-index: 9;
+  background-color: rgb(125, 204, 64);
+}
+
+.container-4 {
+  z-index: 10;
+  margin-top: -10px;
   background-color: rgb(204, 198, 64);
+}
+
+.container ._text-1 {
+  top: 40px;
+  left: 0;
+  z-index: 5;
+  font-size: 1em;
+}
+
+.container ._text-2 {
+  top: 0;
+  left: 0;
+  z-index: 4;
+  font-size: 1em;
+}
+
+.container ._text-3 {
+  top: 85px;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  min-height: 62px;
+  margin: 0 auto;
+  font-size: 0.556em;
+  line-height: 1.8;
+}
+
+.container ._text-4 {
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  font-family: 'PT Sans';
+  font-size: 0.333em;
 }
