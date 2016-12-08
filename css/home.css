@@ -3,22 +3,6 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.container-1 p,
-.question-2 p,
-.question-4 p,
-.question-6 p,
-.text-11 p,
-.text-19 p,
-.text-22 p,
-.text-23 p,
-.text-24 p,
-.text-25 p,
-.text-26 p,
-.text-27 p,
-.text-9 p {
-  margin-bottom: 1em;
-}
-
 .border {
   position: absolute;
 }
@@ -37,11 +21,18 @@ body {
   float: left;
 }
 
+.container .container {
+  width: 100%;
+  height: 178px;
+  margin: -190px 0 0 -0.14472%;
+  border: 2px solid rgb(255, 255, 255);
+}
+
 .container .element {
   visibility: hidden;
   bottom: 4px;
   left: 0;
-  z-index: 235;
+  z-index: 236;
   width: 100%;
   height: 360px;
   border: 2px solid rgb(255, 255, 255);
@@ -49,7 +40,6 @@ body {
 }
 
 .container .text {
-  text-align: center;
   color: rgb(255, 255, 255);
 }
 
@@ -89,9 +79,6 @@ body {
 }
 
 .footer .text {
-  bottom: 20px;
-  min-height: 38px;
-  font-size: 1em;
   color: rgb(255, 255, 255);
 }
 
@@ -127,7 +114,7 @@ body {
   position: absolute;
   top: 45px;
   left: 140px;
-  z-index: 254;
+  z-index: 255;
   min-height: 38px;
   font-size: 1em;
   color: rgb(255, 255, 255);
@@ -154,7 +141,7 @@ body {
 }
 
 .otzivi .container {
-  z-index: 65;
+  z-index: 66;
   width: 90%;
   height: 400px;
   margin: 70px 0 0 5%;
@@ -165,6 +152,10 @@ body {
   bottom: 0;
   width: 1.9995117187%;
   margin: auto 0;
+}
+
+.otzivi .text {
+  text-align: center;
 }
 
 .price {
@@ -192,7 +183,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 230;
+  z-index: 231;
   width: 50%;
   height: 300px;
   background: rgb(106, 63, 21);
@@ -209,7 +200,7 @@ body {
   top: 215px;
   left: 0;
   right: 0;
-  z-index: 229;
+  z-index: 230;
   width: 4%;
   margin: 0 auto;
 }
@@ -224,7 +215,7 @@ body {
   position: absolute;
   top: 0;
   right: 0;
-  z-index: 218;
+  z-index: 219;
   width: 50%;
   height: 300px;
   background: #000000;
@@ -245,7 +236,7 @@ body {
   top: 215px;
   left: 0;
   right: 0;
-  z-index: 217;
+  z-index: 218;
   width: 26px;
   margin: 0 auto;
 }
@@ -271,7 +262,7 @@ body {
 .question .image {
   bottom: 23px;
   right: 22px;
-  z-index: 18;
+  z-index: 19;
   width: 10px;
   opacity: 0.5;
 }
@@ -293,6 +284,27 @@ body {
   color: rgb(86, 61, 25);
 }
 
+.question-2 p,
+.question-4 p,
+.question-6 p,
+.text-10 p,
+.text-12 p,
+.text-20 p,
+.text-23 p,
+.text-24 p,
+.text-25 p,
+.text-26 p,
+.text-27 p,
+.text-28 p,
+.text-3 p,
+.text-4 p,
+.text-5 p,
+.text-6 p,
+.text-7 p,
+.text-8 p {
+  margin-bottom: 1em;
+}
+
 .screen1 {
   position: relative;
   float: left;
@@ -308,18 +320,13 @@ body {
   position: relative;
   float: left;
   clear: both;
+  z-index: 250;
   width: 100%;
   height: 580px;
   background-image: url('../images/background2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right center;
-}
-
-.screen2 .container {
-  width: 53.9843749999%;
-  height: 350px;
-  margin: 230px 0 0 2.8125%;
 }
 
 .screen2 .image {
@@ -347,7 +354,7 @@ body {
   position: absolute;
   top: 47px;
   right: 255px;
-  z-index: 253;
+  z-index: 254;
   min-height: 38px;
   font-size: 1em;
   color: rgb(255, 255, 255);
@@ -402,7 +409,7 @@ body {
 .screen1 ._button {
   top: 38px;
   right: 40px;
-  z-index: 252;
+  z-index: 253;
   width: 15%;
   min-width: 160px;
   max-width: 200px;
@@ -430,7 +437,7 @@ body {
   top: 0;
   bottom: 0;
   right: 26px;
-  z-index: 228;
+  z-index: 229;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -440,7 +447,7 @@ body {
   top: 0;
   bottom: 0;
   left: 26px;
-  z-index: 50;
+  z-index: 51;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -450,7 +457,7 @@ body {
   bottom: 26px;
   left: 0;
   right: 0;
-  z-index: 49;
+  z-index: 50;
   width: 84%;
   height: 2px;
   margin: 0 auto;
@@ -460,7 +467,7 @@ body {
   top: 26px;
   left: 0;
   right: 0;
-  z-index: 48;
+  z-index: 49;
   width: 84%;
   height: 2px;
   margin: 0 auto;
@@ -470,7 +477,7 @@ body {
   top: 0;
   bottom: 0;
   right: 26px;
-  z-index: 17;
+  z-index: 18;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -480,7 +487,7 @@ body {
   top: 0;
   bottom: 0;
   left: 26px;
-  z-index: 16;
+  z-index: 17;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -490,7 +497,7 @@ body {
   bottom: 26px;
   left: 0;
   right: 0;
-  z-index: 15;
+  z-index: 16;
   width: 83.9973365886%;
   height: 2px;
   margin: 0 auto;
@@ -500,7 +507,7 @@ body {
   top: 26px;
   left: 0;
   right: 0;
-  z-index: 14;
+  z-index: 15;
   width: 83.9973365886%;
   height: 2px;
   margin: 0 auto;
@@ -510,7 +517,7 @@ body {
   top: 0;
   bottom: 0;
   left: 26px;
-  z-index: 227;
+  z-index: 228;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -520,7 +527,7 @@ body {
   bottom: 26px;
   left: 0;
   right: 0;
-  z-index: 226;
+  z-index: 227;
   width: 73.916015625%;
   height: 2px;
   margin: 0 auto;
@@ -530,7 +537,7 @@ body {
   top: 26px;
   left: 0;
   right: 0;
-  z-index: 225;
+  z-index: 226;
   width: 73.916015625%;
   height: 2px;
   margin: 0 auto;
@@ -540,7 +547,7 @@ body {
   top: 0;
   bottom: 0;
   left: 26px;
-  z-index: 216;
+  z-index: 217;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -550,7 +557,7 @@ body {
   top: 0;
   bottom: 0;
   right: 26px;
-  z-index: 215;
+  z-index: 216;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -560,7 +567,7 @@ body {
   bottom: 26px;
   left: 0;
   right: 0;
-  z-index: 214;
+  z-index: 215;
   width: 73.916015625%;
   height: 2px;
   margin: 0 auto;
@@ -570,7 +577,7 @@ body {
   top: 26px;
   left: 0;
   right: 0;
-  z-index: 213;
+  z-index: 214;
   width: 73.916015625%;
   height: 2px;
   margin: 0 auto;
@@ -580,7 +587,7 @@ body {
   top: 0;
   bottom: 0;
   right: 26px;
-  z-index: 51;
+  z-index: 52;
   width: 2px;
   height: 186px;
   margin: auto 0;
@@ -589,183 +596,179 @@ body {
 .brown-circle-1 {
   bottom: 25px;
   right: 25px;
-  z-index: 224;
+  z-index: 225;
 }
 
 .brown-circle-10 {
   top: 25px;
   right: 25px;
-  z-index: 46;
+  z-index: 47;
 }
 
 .brown-circle-11 {
   bottom: 25px;
   left: 25px;
-  z-index: 45;
+  z-index: 46;
 }
 
 .brown-circle-12 {
   top: 25px;
   left: 25px;
-  z-index: 44;
+  z-index: 45;
 }
 
 .brown-circle-13 {
   bottom: 25px;
   right: 25px;
-  z-index: 36;
+  z-index: 37;
 }
 
 .brown-circle-14 {
   top: 25px;
   right: 25px;
-  z-index: 35;
+  z-index: 36;
 }
 
 .brown-circle-15 {
   bottom: 25px;
   left: 25px;
-  z-index: 34;
+  z-index: 35;
 }
 
 .brown-circle-16 {
   top: 25px;
   left: 25px;
-  z-index: 33;
+  z-index: 34;
 }
 
 .brown-circle-17 {
   bottom: 25px;
   right: 25px;
-  z-index: 25;
+  z-index: 26;
 }
 
 .brown-circle-18 {
   top: 25px;
   right: 25px;
-  z-index: 24;
+  z-index: 25;
 }
 
 .brown-circle-19 {
   bottom: 25px;
   left: 25px;
-  z-index: 23;
+  z-index: 24;
 }
 
 .brown-circle-2 {
   top: 25px;
   right: 25px;
-  z-index: 223;
+  z-index: 224;
 }
 
 .brown-circle-20 {
   top: 25px;
   left: 25px;
-  z-index: 22;
+  z-index: 23;
 }
 
 .brown-circle-21 {
   top: 25px;
   right: 25px;
-  z-index: 13;
+  z-index: 14;
 }
 
 .brown-circle-22 {
   bottom: 25px;
   left: 25px;
-  z-index: 12;
+  z-index: 13;
 }
 
 .brown-circle-23 {
   top: 25px;
   left: 25px;
-  z-index: 11;
+  z-index: 12;
 }
 
 .brown-circle-3 {
   bottom: 25px;
   left: 25px;
-  z-index: 222;
+  z-index: 223;
 }
 
 .brown-circle-4 {
   top: 25px;
   left: 25px;
-  z-index: 221;
+  z-index: 222;
 }
 
 .brown-circle-5 {
   bottom: 25px;
   right: 25px;
-  z-index: 92;
+  z-index: 93;
 }
 
 .brown-circle-6 {
   top: 25px;
   right: 25px;
-  z-index: 91;
+  z-index: 92;
 }
 
 .brown-circle-7 {
   bottom: 25px;
   left: 25px;
-  z-index: 90;
+  z-index: 91;
 }
 
 .brown-circle-8 {
   top: 25px;
   left: 25px;
-  z-index: 89;
+  z-index: 90;
 }
 
 .brown-circle-9 {
   bottom: 25px;
   right: 25px;
-  z-index: 47;
+  z-index: 48;
 }
 
-.element-1 {
-  top: 40px;
-  left: 2.8125%;
-  z-index: 232;
-  width: 54%;
-  min-width: 52px;
-  max-width: 720px;
-  height: 178px;
-  border: 2px solid rgb(255, 255, 255);
-  background-color: rgba(222, 222, 222, 0);
+.container-1 {
+  width: 53.9843749999%;
+  height: 350px;
+  margin: 230px 0 0 2.8125%;
 }
 
 .element-10 {
   top: 0;
-  left: 0;
-  z-index: 190;
-  background: url('../images/ph-7.jpg') rgb(184, 113, 113);
-  background-position: left top;
+  bottom: 0;
+  left: 26px;
+  z-index: 99;
+  width: 2px;
+  height: 660px;
+  margin: auto 0;
 }
 
 .element-11 {
   top: 0;
   bottom: 0;
-  left: 26px;
+  right: 26px;
   z-index: 98;
   width: 2px;
-  height: 700px;
+  height: 660px;
   margin: auto 0;
 }
 
 .element-12 {
-  top: 0;
-  bottom: 0;
-  right: 26px;
+  bottom: 26px;
+  left: 0;
+  right: 0;
   z-index: 97;
-  width: 2px;
-  height: 680px;
-  margin: auto 0;
+  width: 90%;
+  height: 2px;
+  margin: 0 auto;
 }
 
 .element-13 {
-  bottom: 26px;
+  top: 26px;
   left: 0;
   right: 0;
   z-index: 96;
@@ -775,19 +778,19 @@ body {
 }
 
 .element-14 {
-  top: 26px;
-  left: 0;
-  right: 0;
-  z-index: 95;
-  width: 90%;
-  height: 2px;
-  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  right: 26px;
+  z-index: 41;
+  width: 2px;
+  height: 186px;
+  margin: auto 0;
 }
 
 .element-15 {
   top: 0;
   bottom: 0;
-  right: 26px;
+  left: 26px;
   z-index: 40;
   width: 2px;
   height: 186px;
@@ -795,17 +798,17 @@ body {
 }
 
 .element-16 {
-  top: 0;
-  bottom: 0;
-  left: 26px;
+  bottom: 26px;
+  left: 0;
+  right: 0;
   z-index: 39;
-  width: 2px;
-  height: 186px;
-  margin: auto 0;
+  width: 84%;
+  height: 2px;
+  margin: 0 auto;
 }
 
 .element-17 {
-  bottom: 26px;
+  top: 26px;
   left: 0;
   right: 0;
   z-index: 38;
@@ -815,37 +818,45 @@ body {
 }
 
 .element-18 {
-  top: 26px;
-  left: 0;
-  right: 0;
-  z-index: 37;
-  width: 84%;
-  height: 2px;
-  margin: 0 auto;
+  top: 0;
+  bottom: 0;
+  right: 26px;
+  z-index: 30;
+  width: 2px;
+  height: 186px;
+  margin: auto 0;
 }
 
 .element-19 {
   top: 0;
   bottom: 0;
-  right: 26px;
+  left: 26px;
   z-index: 29;
   width: 2px;
   height: 186px;
   margin: auto 0;
 }
 
+.element-2 {
+  top: 250px;
+  left: 50%;
+  z-index: 198;
+  background: url('../images/ph-2.jpg') rgb(233, 82, 82);
+  background-position: 100% 30%;
+}
+
 .element-20 {
-  top: 0;
-  bottom: 0;
-  left: 26px;
+  bottom: 26px;
+  left: 0;
+  right: 0;
   z-index: 28;
-  width: 2px;
-  height: 186px;
-  margin: auto 0;
+  width: 84%;
+  height: 2px;
+  margin: 0 auto;
 }
 
 .element-21 {
-  bottom: 26px;
+  top: 26px;
   left: 0;
   right: 0;
   z-index: 27;
@@ -855,16 +866,6 @@ body {
 }
 
 .element-22 {
-  top: 26px;
-  left: 0;
-  right: 0;
-  z-index: 26;
-  width: 84%;
-  height: 2px;
-  margin: 0 auto;
-}
-
-.element-23 {
   bottom: 0;
   left: 0;
   z-index: 1;
@@ -872,7 +873,7 @@ body {
   background-color: rgb(38, 34, 29);
 }
 
-.element-24 {
+.element-23 {
   top: 0;
   left: 0;
   right: 0;
@@ -884,65 +885,65 @@ body {
 }
 
 .element-3 {
-  top: 250px;
-  left: 50%;
-  z-index: 197;
-  background: url('../images/ph-2.jpg') rgb(233, 82, 82);
-  background-position: 100% 30%;
-}
-
-.element-4 {
   top: 0;
   left: 50%;
-  z-index: 196;
+  z-index: 197;
   background: url('../images/ph-3.jpg') rgb(233, 82, 82);
   background-position: left top;
 }
 
-.element-5 {
+.element-4 {
   top: 0;
   right: 0;
-  z-index: 195;
+  z-index: 196;
   background: url('../images/ph-4.jpg') rgb(176, 125, 125);
   background-position: left top;
 }
 
-.element-6 {
+.element-5 {
   top: 250px;
   right: 0;
-  z-index: 194;
+  z-index: 195;
   background: url('../images/ph-8.jpg') rgb(245, 133, 133);
   background-position: left top;
 }
 
-.element-7 {
+.element-6 {
   top: 0;
   left: 25%;
-  z-index: 193;
+  z-index: 194;
   background: url('../images/ph-1.jpg') rgb(182, 136, 136);
+  background-position: left top;
+}
+
+.element-7 {
+  top: 250px;
+  left: 25%;
+  z-index: 193;
+  background: url('../images/ph-6.jpg') rgb(134, 72, 72);
   background-position: left top;
 }
 
 .element-8 {
   top: 250px;
-  left: 25%;
+  left: 0;
   z-index: 192;
-  background: url('../images/ph-6.jpg') rgb(134, 72, 72);
+  background: url('../images/ph-5.jpg') rgb(222, 160, 77);
   background-position: left top;
 }
 
 .element-9 {
-  top: 250px;
+  top: 0;
   left: 0;
   z-index: 191;
-  background: url('../images/ph-5.jpg') rgb(222, 160, 77);
+  background: url('../images/ph-7.jpg') rgb(184, 113, 113);
   background-position: left top;
 }
 
 .image-1 {
   top: 32px;
   left: 40px;
-  z-index: 259;
+  z-index: 260;
   width: 70px;
 }
 
@@ -950,42 +951,42 @@ body {
   top: 45px;
   left: 0;
   right: 0;
-  z-index: 242;
+  z-index: 243;
   margin: 0 auto;
 }
 
 .image-13 {
   right: 12%;
-  z-index: 205;
+  z-index: 206;
 }
 
 .image-14 {
   left: 12%;
-  z-index: 204;
+  z-index: 205;
 }
 
 .image-15 {
   left: 0;
   right: 0;
-  z-index: 203;
+  z-index: 204;
   margin: 0 auto;
 }
 
 .image-17 {
   right: 0;
-  z-index: 64;
+  z-index: 65;
 }
 
 .image-18 {
   left: 0;
-  z-index: 63;
+  z-index: 64;
 }
 
 .image-2 {
   top: 540px;
   left: 0;
   right: 0;
-  z-index: 257;
+  z-index: 258;
   width: 40px;
   margin: 0 auto;
 }
@@ -993,54 +994,54 @@ body {
 .image-3 {
   top: 595px;
   right: 40px;
-  z-index: 256;
+  z-index: 257;
   width: 20px;
 }
 
 .image-4 {
   top: 595px;
   right: 80px;
-  z-index: 255;
+  z-index: 256;
   width: 20px;
 }
 
 .image-5 {
   top: 195px;
   right: 100px;
-  z-index: 247;
+  z-index: 248;
 }
 
 .image-6 {
   top: 195px;
   left: 0;
   right: 0;
-  z-index: 246;
+  z-index: 247;
   margin: 0 auto;
 }
 
 .image-7 {
   top: 195px;
   left: 100px;
-  z-index: 245;
+  z-index: 246;
 }
 
 .image-8 {
   top: 45px;
   left: 100px;
-  z-index: 244;
+  z-index: 245;
 }
 
 .image-9 {
   top: 45px;
   right: 100px;
-  z-index: 243;
+  z-index: 244;
 }
 
 .line-1 {
   top: 535px;
   left: 0;
   right: 0;
-  z-index: 94;
+  z-index: 95;
   width: 90%;
   height: 2px;
   margin: 0 auto;
@@ -1049,7 +1050,7 @@ body {
 .line-2 {
   top: 190px;
   left: 76.71875%;
-  z-index: 93;
+  z-index: 94;
   width: 0.1556396484%;
   height: 550px;
 }
@@ -1057,7 +1058,7 @@ body {
 .question-1 {
   top: 155px;
   left: 5%;
-  z-index: 52;
+  z-index: 53;
   width: 43.9990234375%;
   height: 275px;
   background: url('../images/ivory-off-white-paper-texture.jpg') rgb(221, 221, 221);
@@ -1068,14 +1069,14 @@ body {
 
 .question-2 {
   left: 10%;
-  z-index: 43;
+  z-index: 44;
   width: 80%;
 }
 
 .question-3 {
   top: 455px;
   left: 5%;
-  z-index: 41;
+  z-index: 42;
   width: 43.9990234375%;
   height: 275px;
   background: url('../images/ivory-off-white-paper-texture.jpg') rgb(221, 221, 221);
@@ -1086,14 +1087,14 @@ body {
 
 .question-4 {
   left: 10%;
-  z-index: 32;
+  z-index: 33;
   width: 80%;
 }
 
 .question-5 {
   top: 455px;
   right: 5%;
-  z-index: 30;
+  z-index: 31;
   width: 43.9990234375%;
   height: 275px;
   background: url('../images/ivory-off-white-paper-texture.jpg') rgb(221, 221, 221);
@@ -1104,14 +1105,14 @@ body {
 
 .question-6 {
   left: 9.9988902452%;
-  z-index: 21;
+  z-index: 22;
   width: 80%;
 }
 
 .question-7 {
   top: 155px;
   right: 5%;
-  z-index: 19;
+  z-index: 20;
   width: 44%;
   height: 275px;
   background: url('../images/ivory-off-white-paper-texture.jpg') rgb(221, 221, 221);
@@ -1122,59 +1123,67 @@ body {
 
 .question-8 {
   left: 10%;
-  z-index: 10;
+  z-index: 11;
   width: 80.5960463258%;
 }
 
 .text-1 {
-  top: 122px;
-  left: 66px;
+  top: 82px;
+  left: 3%;
   z-index: 234;
-  width: 50%;
+  width: 94%;
   max-height: 90px;
   font-family: 'PT Serif';
   font-size: 1em;
-  color: rgb(255, 255, 255);
 }
 
 .text-10 {
-  top: 165px;
-  left: 0;
-  z-index: 219;
-  width: 100%;
-  font-size: 1em;
-}
-
-.text-11 {
   top: 100px;
-  right: 0;
-  z-index: 208;
+  left: 10%;
+  z-index: 221;
+  width: 80%;
   font: 1.5em/0.3 'PT Serif';
   letter-spacing: 2px;
 }
 
-.text-12 {
+.text-11 {
   top: 165px;
   left: 0;
-  z-index: 207;
+  z-index: 220;
+  width: 100%;
   font-size: 1em;
 }
 
+.text-12 {
+  top: 100px;
+  right: 0;
+  z-index: 209;
+  font: 1.5em/0.3 'PT Serif';
+  letter-spacing: 2px;
+}
+
 .text-13 {
+  top: 165px;
+  left: 0;
+  z-index: 208;
+  font-size: 1em;
+}
+
+.text-14 {
   top: 455px;
   right: 11.9982910156%;
-  z-index: 202;
+  z-index: 203;
   width: 18.9%;
   min-height: 27px;
   font-size: 1em;
   color: #533b19;
 }
 
-.text-14 {
+.text-15 {
   top: 455px;
   left: 0;
   right: 0;
-  z-index: 201;
+  z-index: 202;
   width: 18%;
   min-height: 27px;
   margin: 0 auto;
@@ -1182,11 +1191,11 @@ body {
   color: #533b19;
 }
 
-.text-15 {
+.text-16 {
   top: 80px;
   left: 0;
   right: 0;
-  z-index: 200;
+  z-index: 201;
   width: 100%;
   height: 10px;
   margin: 0 auto;
@@ -1196,148 +1205,148 @@ body {
   color: #60451d;
 }
 
-.text-16 {
+.text-17 {
   top: 455px;
   left: 11.9982910156%;
-  z-index: 199;
+  z-index: 200;
   width: 19%;
   min-height: 27px;
   font-size: 1em;
   color: #533b19;
 }
 
-.text-17 {
-  top: 570px;
-  right: 75px;
-  z-index: 170;
-  width: 15.625%;
-  min-height: 33px;
-  font-family: 'PT Serif';
-  text-align: center;
-}
-
 .text-18 {
   top: 570px;
-  left: 200px;
-  z-index: 147;
-  width: 59.375%;
+  right: 75px;
+  z-index: 171;
+  width: 15.625%;
+  min-height: 33px;
   font-family: 'PT Serif';
   text-align: center;
 }
 
 .text-19 {
-  top: 682px;
-  left: 5.859375%;
-  z-index: 113;
-  line-height: 0.3;
+  top: 570px;
+  left: 200px;
+  z-index: 148;
+  width: 59.375%;
+  font-family: 'PT Serif';
+  text-align: center;
 }
 
 .text-2 {
-  top: 82px;
-  left: 66px;
+  top: 42px;
+  left: 3%;
   z-index: 233;
   font: 1.5em/0.3 'PT Serif';
   text-align: center;
   letter-spacing: 2px;
-  color: rgb(255, 255, 255);
 }
 
 .text-20 {
+  top: 682px;
+  left: 5.859375%;
+  z-index: 114;
+  line-height: 0.3;
+}
+
+.text-21 {
   top: 190px;
   right: 75px;
-  z-index: 75;
+  z-index: 76;
   width: 15.625%;
   min-height: 33px;
   font-family: 'PT Serif';
   text-align: center;
 }
 
-.text-21 {
+.text-22 {
   top: 190px;
   left: 200px;
-  z-index: 74;
+  z-index: 75;
   width: 59.375%;
   font-family: 'PT Serif';
   text-align: center;
 }
 
-.text-22 {
+.text-23 {
   top: 302px;
+  left: 5.859375%;
+  z-index: 74;
+  line-height: 0.3;
+}
+
+.text-24 {
+  top: 242px;
   left: 5.859375%;
   z-index: 73;
   line-height: 0.3;
 }
 
-.text-23 {
-  top: 242px;
+.text-25 {
+  top: 362px;
   left: 5.859375%;
   z-index: 72;
   line-height: 0.3;
 }
 
-.text-24 {
-  top: 362px;
+.text-26 {
+  top: 622px;
   left: 5.859375%;
   z-index: 71;
   line-height: 0.3;
 }
 
-.text-25 {
-  top: 622px;
+.text-27 {
+  top: 482px;
   left: 5.859375%;
   z-index: 70;
   line-height: 0.3;
 }
 
-.text-26 {
-  top: 482px;
+.text-28 {
+  top: 422px;
   left: 5.859375%;
   z-index: 69;
   line-height: 0.3;
 }
 
-.text-27 {
-  top: 422px;
-  left: 5.859375%;
-  z-index: 68;
-  line-height: 0.3;
-}
-
-.text-28 {
+.text-29 {
   top: 340px;
   right: 9%;
-  z-index: 62;
+  z-index: 63;
   width: 21.9995117187%;
   min-height: 30px;
   font-size: 0.875em;
   text-decoration: underline;
 }
 
-.text-29 {
+.text-3 {
+  top: 275px;
+  right: 50px;
+  z-index: 242;
+  width: 150px;
+  min-height: 32px;
+  font-size: 1em;
+  line-height: 0.3;
+  text-align: center;
+}
+
+.text-30 {
   top: 140px;
   right: 9%;
-  z-index: 61;
+  z-index: 62;
   width: 21.9995117187%;
   min-height: 118px;
   font-style: italic;
   font-size: 1em;
 }
 
-.text-3 {
-  top: 275px;
-  right: 50px;
-  z-index: 241;
-  width: 150px;
-  min-height: 32px;
-  font-size: 1em;
-  line-height: 0.3;
-}
-
-.text-30 {
+.text-31 {
   top: 340px;
   left: 0;
   right: 0;
-  z-index: 60;
+  z-index: 61;
   width: 23.9184570312%;
   min-height: 30px;
   margin: 0 auto;
@@ -1345,11 +1354,11 @@ body {
   text-decoration: underline;
 }
 
-.text-31 {
-  top: 140px;
+.text-32 {
+  top: 150px;
   left: 0;
   right: 0;
-  z-index: 59;
+  z-index: 60;
   width: 21.9995117187%;
   min-height: 118px;
   margin: 0 auto;
@@ -1357,30 +1366,30 @@ body {
   font-size: 1em;
 }
 
-.text-32 {
+.text-33 {
   top: 340px;
   left: 9%;
-  z-index: 58;
+  z-index: 59;
   width: 21.9995117187%;
   min-height: 30px;
   font-size: 0.875em;
   text-decoration: underline;
 }
 
-.text-33 {
+.text-34 {
   top: 140px;
   left: 9%;
-  z-index: 57;
+  z-index: 58;
   width: 21.9995117187%;
   min-height: 118px;
   font-style: italic;
   font-size: 1em;
 }
 
-.text-34 {
+.text-35 {
   top: 80px;
   right: 9%;
-  z-index: 56;
+  z-index: 57;
   width: 21.9995117187%;
   min-height: 40px;
   font-family: 'PT Serif';
@@ -1389,11 +1398,11 @@ body {
   letter-spacing: 1px;
 }
 
-.text-35 {
+.text-36 {
   top: 80px;
   left: 0;
   right: 0;
-  z-index: 55;
+  z-index: 56;
   width: 22%;
   min-height: 40px;
   margin: 0 auto;
@@ -1403,10 +1412,10 @@ body {
   letter-spacing: 1px;
 }
 
-.text-36 {
+.text-37 {
   top: 80px;
   left: 9%;
-  z-index: 54;
+  z-index: 55;
   width: 21.9995117187%;
   min-height: 40px;
   font-family: 'PT Serif';
@@ -1415,132 +1424,155 @@ body {
   letter-spacing: 1px;
 }
 
-.text-37 {
+.text-38 {
   top: 80px;
   left: 0;
   right: 0;
-  z-index: 66;
+  z-index: 67;
   width: 90%;
   margin: 0 auto;
   font: 1.5em/0.3 'PT Serif';
-  text-align: center;
   letter-spacing: 2px;
   color: rgb(255, 255, 255);
 }
 
-.text-38 {
-  right: 38px;
-  z-index: 6;
-  text-align: right;
-}
-
 .text-39 {
-  right: 320px;
-  z-index: 5;
+  bottom: 25px;
+  left: 128px;
+  z-index: 7;
+  font-size: 0.875em;
+  text-decoration: underline;
 }
 
 .text-4 {
   top: 275px;
   left: 0;
   right: 0;
-  z-index: 240;
+  z-index: 241;
   width: 150px;
   min-height: 32px;
   margin: 0 auto;
   font-size: 1em;
   line-height: 0.3;
+  text-align: center;
 }
 
 .text-40 {
-  left: 128px;
-  z-index: 3;
+  bottom: 20px;
+  right: 38px;
+  z-index: 6;
+  min-height: 38px;
+  font-size: 1em;
+  text-align: right;
 }
 
-.text-40:hover {
+.text-41 {
+  bottom: 20px;
+  right: 320px;
+  z-index: 5;
+  min-height: 38px;
+  font-size: 1em;
+}
+
+.text-42 {
+  bottom: 35px;
+  left: 128px;
+  z-index: 3;
+  min-height: 38px;
+  font-size: 1em;
+}
+
+.text-39:hover,
+.text-42:hover,
+.text-9:hover {
   text-decoration: none;
 }
 
 .text-5 {
   top: 275px;
   left: 50px;
-  z-index: 239;
+  z-index: 240;
   width: 150px;
   min-height: 32px;
   font-size: 1em;
   line-height: 0.3;
+  text-align: center;
 }
 
 .text-6 {
   top: 125px;
   right: 50px;
-  z-index: 238;
+  z-index: 239;
   width: 150px;
   min-height: 32px;
   font-size: 1em;
   line-height: 0.3;
+  text-align: center;
 }
 
 .text-7 {
   top: 125px;
   left: 0;
   right: 0;
-  z-index: 237;
+  z-index: 238;
   width: 150px;
   min-height: 32px;
   margin: 0 auto;
   font-size: 1em;
   line-height: 0.3;
+  text-align: center;
 }
 
 .text-8 {
   top: 125px;
   left: 50px;
-  z-index: 236;
+  z-index: 237;
   width: 150px;
   min-height: 32px;
   font-size: 1em;
   line-height: 0.3;
+  text-align: center;
 }
 
 .text-9 {
-  top: 100px;
-  left: 10%;
-  z-index: 220;
-  width: 80%;
-  font: 1.5em/0.3 'PT Serif';
-  letter-spacing: 2px;
+  bottom: 20px;
+  left: 128px;
+  z-index: 262;
+  min-height: 38px;
+  font-size: 1em;
+  color: rgb(255, 255, 255);
 }
 
 .white-circle-1 {
   top: 25px;
   right: 25px;
-  z-index: 212;
+  z-index: 213;
 }
 
 .white-circle-2 {
   bottom: 25px;
   right: 25px;
-  z-index: 211;
+  z-index: 212;
 }
 
 .white-circle-3 {
   bottom: 25px;
   left: 25px;
-  z-index: 210;
+  z-index: 211;
 }
 
 .white-circle-4 {
   top: 25px;
   left: 25px;
-  z-index: 209;
+  z-index: 210;
 }
 
-.faq ._text-37 {
+.faq ._text-38 {
   position: absolute;
   top: 80px;
   left: 0;
   right: 0;
-  z-index: 8;
+  z-index: 9;
   width: 100%;
   margin: 0 auto;
   font: 1.5em/0.3 'PT Serif';
@@ -1552,7 +1584,7 @@ body {
 .price ._button-10 {
   top: 475px;
   right: 16.796875%;
-  z-index: 180;
+  z-index: 181;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1560,7 +1592,7 @@ body {
 .price ._button-11 {
   top: 415px;
   right: 5.859375%;
-  z-index: 179;
+  z-index: 180;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1568,7 +1600,7 @@ body {
 .price ._button-12 {
   top: 415px;
   right: 11.328125%;
-  z-index: 178;
+  z-index: 179;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1576,7 +1608,7 @@ body {
 .price ._button-13 {
   top: 415px;
   right: 16.796875%;
-  z-index: 177;
+  z-index: 178;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1584,7 +1616,7 @@ body {
 .price ._button-14 {
   top: 355px;
   right: 5.859375%;
-  z-index: 176;
+  z-index: 177;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1592,7 +1624,7 @@ body {
 .price ._button-15 {
   top: 355px;
   right: 11.328125%;
-  z-index: 175;
+  z-index: 176;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1600,7 +1632,7 @@ body {
 .price ._button-16 {
   top: 355px;
   right: 16.796875%;
-  z-index: 174;
+  z-index: 175;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1608,7 +1640,7 @@ body {
 .price ._button-17 {
   top: 295px;
   right: 5.859375%;
-  z-index: 173;
+  z-index: 174;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1616,7 +1648,7 @@ body {
 .price ._button-18 {
   top: 295px;
   right: 11.328125%;
-  z-index: 172;
+  z-index: 173;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1624,7 +1656,7 @@ body {
 .price ._button-19 {
   top: 295px;
   right: 16.796875%;
-  z-index: 171;
+  z-index: 172;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1632,7 +1664,7 @@ body {
 .price ._button-2 {
   top: 675px;
   right: 5.859375%;
-  z-index: 188;
+  z-index: 189;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1640,7 +1672,7 @@ body {
 .price ._button-20 {
   top: 675px;
   left: 15.625%;
-  z-index: 169;
+  z-index: 170;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1648,7 +1680,7 @@ body {
 .price ._button-21 {
   top: 675px;
   left: 64.84375%;
-  z-index: 168;
+  z-index: 169;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1656,7 +1688,7 @@ body {
 .price ._button-22 {
   top: 675px;
   left: 59.375%;
-  z-index: 167;
+  z-index: 168;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1664,7 +1696,7 @@ body {
 .price ._button-23 {
   top: 675px;
   left: 70.3125%;
-  z-index: 166;
+  z-index: 167;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1672,7 +1704,7 @@ body {
 .price ._button-24 {
   top: 675px;
   left: 48.4375%;
-  z-index: 165;
+  z-index: 166;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -1680,7 +1712,7 @@ body {
 .price ._button-25 {
   top: 675px;
   left: 42.96875%;
-  z-index: 164;
+  z-index: 165;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -1688,7 +1720,7 @@ body {
 .price ._button-26 {
   top: 675px;
   left: 37.5%;
-  z-index: 163;
+  z-index: 164;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1696,7 +1728,7 @@ body {
 .price ._button-27 {
   top: 675px;
   left: 32.03125%;
-  z-index: 162;
+  z-index: 163;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1704,7 +1736,7 @@ body {
 .price ._button-28 {
   top: 675px;
   left: 26.5625%;
-  z-index: 161;
+  z-index: 162;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1712,7 +1744,7 @@ body {
 .price ._button-29 {
   top: 675px;
   left: 21.09375%;
-  z-index: 160;
+  z-index: 161;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1720,7 +1752,7 @@ body {
 .price ._button-3 {
   top: 675px;
   right: 11.328125%;
-  z-index: 187;
+  z-index: 188;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1728,7 +1760,7 @@ body {
 .price ._button-30 {
   top: 675px;
   left: 53.90625%;
-  z-index: 159;
+  z-index: 160;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1736,7 +1768,7 @@ body {
 .price ._button-31 {
   top: 615px;
   left: 15.625%;
-  z-index: 158;
+  z-index: 159;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1744,7 +1776,7 @@ body {
 .price ._button-32 {
   top: 615px;
   left: 64.84375%;
-  z-index: 157;
+  z-index: 158;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1752,7 +1784,7 @@ body {
 .price ._button-33 {
   top: 615px;
   left: 59.375%;
-  z-index: 156;
+  z-index: 157;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1760,7 +1792,7 @@ body {
 .price ._button-34 {
   top: 615px;
   left: 70.3125%;
-  z-index: 155;
+  z-index: 156;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1768,7 +1800,7 @@ body {
 .price ._button-35 {
   top: 615px;
   left: 48.4375%;
-  z-index: 154;
+  z-index: 155;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1776,7 +1808,7 @@ body {
 .price ._button-36 {
   top: 615px;
   left: 42.96875%;
-  z-index: 153;
+  z-index: 154;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -1784,7 +1816,7 @@ body {
 .price ._button-37 {
   top: 615px;
   left: 37.5%;
-  z-index: 152;
+  z-index: 153;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1792,7 +1824,7 @@ body {
 .price ._button-38 {
   top: 615px;
   left: 32.03125%;
-  z-index: 151;
+  z-index: 152;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1800,7 +1832,7 @@ body {
 .price ._button-39 {
   top: 615px;
   left: 26.5625%;
-  z-index: 150;
+  z-index: 151;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -1808,7 +1840,7 @@ body {
 .price ._button-4 {
   top: 675px;
   right: 16.796875%;
-  z-index: 186;
+  z-index: 187;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1816,7 +1848,7 @@ body {
 .price ._button-40 {
   top: 615px;
   left: 21.09375%;
-  z-index: 149;
+  z-index: 150;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1824,7 +1856,7 @@ body {
 .price ._button-41 {
   top: 615px;
   left: 53.90625%;
-  z-index: 148;
+  z-index: 149;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1832,7 +1864,7 @@ body {
 .price ._button-42 {
   top: 475px;
   left: 64.84375%;
-  z-index: 146;
+  z-index: 147;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1840,7 +1872,7 @@ body {
 .price ._button-43 {
   top: 475px;
   left: 59.375%;
-  z-index: 145;
+  z-index: 146;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1848,7 +1880,7 @@ body {
 .price ._button-44 {
   top: 475px;
   left: 70.3125%;
-  z-index: 144;
+  z-index: 145;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1860,7 +1892,7 @@ body {
 .price ._button-45 {
   top: 475px;
   left: 48.4375%;
-  z-index: 143;
+  z-index: 144;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1868,7 +1900,7 @@ body {
 .price ._button-46 {
   top: 475px;
   left: 42.96875%;
-  z-index: 142;
+  z-index: 143;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1876,7 +1908,7 @@ body {
 .price ._button-47 {
   top: 475px;
   left: 37.5%;
-  z-index: 141;
+  z-index: 142;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1884,7 +1916,7 @@ body {
 .price ._button-48 {
   top: 475px;
   left: 32.03125%;
-  z-index: 140;
+  z-index: 141;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1892,7 +1924,7 @@ body {
 .price ._button-49 {
   top: 475px;
   left: 26.5625%;
-  z-index: 139;
+  z-index: 140;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1900,7 +1932,7 @@ body {
 .price ._button-5 {
   top: 615px;
   right: 5.859375%;
-  z-index: 185;
+  z-index: 186;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1908,7 +1940,7 @@ body {
 .price ._button-50 {
   top: 475px;
   left: 21.09375%;
-  z-index: 138;
+  z-index: 139;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1916,7 +1948,7 @@ body {
 .price ._button-51 {
   top: 475px;
   left: 53.90625%;
-  z-index: 137;
+  z-index: 138;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1924,7 +1956,7 @@ body {
 .price ._button-52 {
   top: 475px;
   left: 15.625%;
-  z-index: 136;
+  z-index: 137;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1932,7 +1964,7 @@ body {
 .price ._button-53 {
   top: 415px;
   left: 64.84375%;
-  z-index: 135;
+  z-index: 136;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1940,7 +1972,7 @@ body {
 .price ._button-54 {
   top: 415px;
   left: 59.375%;
-  z-index: 134;
+  z-index: 135;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1948,7 +1980,7 @@ body {
 .price ._button-55 {
   top: 415px;
   left: 70.3125%;
-  z-index: 133;
+  z-index: 134;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1956,7 +1988,7 @@ body {
 .price ._button-56 {
   top: 415px;
   left: 48.4375%;
-  z-index: 132;
+  z-index: 133;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -1964,7 +1996,7 @@ body {
 .price ._button-57 {
   top: 415px;
   left: 42.96875%;
-  z-index: 131;
+  z-index: 132;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1972,7 +2004,7 @@ body {
 .price ._button-58 {
   top: 415px;
   left: 37.5%;
-  z-index: 130;
+  z-index: 131;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1980,7 +2012,7 @@ body {
 .price ._button-59 {
   top: 415px;
   left: 32.03125%;
-  z-index: 129;
+  z-index: 130;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -1988,7 +2020,7 @@ body {
 .price ._button-6 {
   top: 615px;
   right: 11.328125%;
-  z-index: 184;
+  z-index: 185;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -1996,7 +2028,7 @@ body {
 .price ._button-60 {
   top: 415px;
   left: 26.5625%;
-  z-index: 128;
+  z-index: 129;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2004,7 +2036,7 @@ body {
 .price ._button-61 {
   top: 415px;
   left: 21.09375%;
-  z-index: 127;
+  z-index: 128;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2012,7 +2044,7 @@ body {
 .price ._button-62 {
   top: 415px;
   left: 53.90625%;
-  z-index: 126;
+  z-index: 127;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2020,7 +2052,7 @@ body {
 .price ._button-63 {
   top: 355px;
   left: 15.625%;
-  z-index: 125;
+  z-index: 126;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2028,7 +2060,7 @@ body {
 .price ._button-64 {
   top: 355px;
   left: 64.84375%;
-  z-index: 124;
+  z-index: 125;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2036,7 +2068,7 @@ body {
 .price ._button-65 {
   top: 355px;
   left: 59.375%;
-  z-index: 123;
+  z-index: 124;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2044,7 +2076,7 @@ body {
 .price ._button-66 {
   top: 415px;
   left: 15.625%;
-  z-index: 122;
+  z-index: 123;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2052,7 +2084,7 @@ body {
 .price ._button-67 {
   top: 355px;
   left: 70.3125%;
-  z-index: 121;
+  z-index: 122;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2060,7 +2092,7 @@ body {
 .price ._button-68 {
   top: 355px;
   left: 48.4375%;
-  z-index: 120;
+  z-index: 121;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2068,7 +2100,7 @@ body {
 .price ._button-69 {
   top: 355px;
   left: 42.96875%;
-  z-index: 119;
+  z-index: 120;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2076,7 +2108,7 @@ body {
 .price ._button-7 {
   top: 615px;
   right: 16.796875%;
-  z-index: 183;
+  z-index: 184;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -2084,7 +2116,7 @@ body {
 .price ._button-70 {
   top: 355px;
   left: 37.5%;
-  z-index: 118;
+  z-index: 119;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2092,7 +2124,7 @@ body {
 .price ._button-71 {
   top: 355px;
   left: 32.03125%;
-  z-index: 117;
+  z-index: 118;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2100,7 +2132,7 @@ body {
 .price ._button-72 {
   top: 355px;
   left: 26.5625%;
-  z-index: 116;
+  z-index: 117;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2108,7 +2140,7 @@ body {
 .price ._button-73 {
   top: 355px;
   left: 21.09375%;
-  z-index: 115;
+  z-index: 116;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2116,7 +2148,7 @@ body {
 .price ._button-74 {
   top: 355px;
   left: 53.90625%;
-  z-index: 114;
+  z-index: 115;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2124,7 +2156,7 @@ body {
 .price ._button-75 {
   top: 295px;
   left: 64.84375%;
-  z-index: 112;
+  z-index: 113;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2132,7 +2164,7 @@ body {
 .price ._button-76 {
   top: 295px;
   left: 59.375%;
-  z-index: 111;
+  z-index: 112;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2140,7 +2172,7 @@ body {
 .price ._button-77 {
   top: 295px;
   left: 70.3125%;
-  z-index: 110;
+  z-index: 111;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2148,7 +2180,7 @@ body {
 .price ._button-78 {
   top: 295px;
   left: 48.4375%;
-  z-index: 109;
+  z-index: 110;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2156,7 +2188,7 @@ body {
 .price ._button-79 {
   top: 295px;
   left: 42.96875%;
-  z-index: 108;
+  z-index: 109;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2164,7 +2196,7 @@ body {
 .price ._button-8 {
   top: 475px;
   right: 5.859375%;
-  z-index: 182;
+  z-index: 183;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -2172,7 +2204,7 @@ body {
 .price ._button-80 {
   top: 295px;
   left: 37.5%;
-  z-index: 107;
+  z-index: 108;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2180,7 +2212,7 @@ body {
 .price ._button-81 {
   top: 295px;
   left: 32.03125%;
-  z-index: 106;
+  z-index: 107;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2188,7 +2220,7 @@ body {
 .price ._button-82 {
   top: 295px;
   left: 26.5625%;
-  z-index: 105;
+  z-index: 106;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2196,7 +2228,7 @@ body {
 .price ._button-83 {
   top: 295px;
   left: 21.09375%;
-  z-index: 104;
+  z-index: 105;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2204,7 +2236,7 @@ body {
 .price ._button-84 {
   top: 295px;
   left: 53.90625%;
-  z-index: 103;
+  z-index: 104;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2212,7 +2244,7 @@ body {
 .price ._button-85 {
   top: 235px;
   right: 5.859375%;
-  z-index: 102;
+  z-index: 103;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -2220,7 +2252,7 @@ body {
 .price ._button-86 {
   top: 235px;
   right: 11.328125%;
-  z-index: 101;
+  z-index: 102;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -2228,7 +2260,7 @@ body {
 .price ._button-87 {
   top: 235px;
   left: 15.625%;
-  z-index: 88;
+  z-index: 89;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2236,7 +2268,7 @@ body {
 .price ._button-88 {
   top: 235px;
   right: 16.796875%;
-  z-index: 87;
+  z-index: 88;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -2268,7 +2300,7 @@ body {
 .price ._button-89 {
   top: 235px;
   left: 64.84375%;
-  z-index: 86;
+  z-index: 87;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2276,7 +2308,7 @@ body {
 .price ._button-9 {
   top: 475px;
   right: 11.328125%;
-  z-index: 181;
+  z-index: 182;
   background-color: rgb(174, 125, 53);
   color: rgb(255, 255, 255);
 }
@@ -2284,7 +2316,7 @@ body {
 .price ._button-90 {
   top: 235px;
   left: 59.375%;
-  z-index: 85;
+  z-index: 86;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2292,7 +2324,7 @@ body {
 .price ._button-91 {
   top: 295px;
   left: 15.625%;
-  z-index: 84;
+  z-index: 85;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2300,7 +2332,7 @@ body {
 .price ._button-92 {
   top: 235px;
   left: 70.3125%;
-  z-index: 83;
+  z-index: 84;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2308,7 +2340,7 @@ body {
 .price ._button-93 {
   top: 235px;
   left: 48.4375%;
-  z-index: 82;
+  z-index: 83;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2316,7 +2348,7 @@ body {
 .price ._button-94 {
   top: 235px;
   left: 42.96875%;
-  z-index: 81;
+  z-index: 82;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2324,7 +2356,7 @@ body {
 .price ._button-95 {
   top: 235px;
   left: 37.5%;
-  z-index: 80;
+  z-index: 81;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2332,7 +2364,7 @@ body {
 .price ._button-96 {
   top: 235px;
   left: 32.03125%;
-  z-index: 79;
+  z-index: 80;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2340,7 +2372,7 @@ body {
 .price ._button-97 {
   top: 235px;
   left: 26.5625%;
-  z-index: 78;
+  z-index: 79;
   background-color: rgba(136, 125, 108, 0.34);
   color: rgb(96, 69, 29);
 }
@@ -2358,7 +2390,7 @@ body {
 .price ._button-98 {
   top: 235px;
   left: 21.09375%;
-  z-index: 77;
+  z-index: 78;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2366,7 +2398,7 @@ body {
 .price ._button-99 {
   top: 235px;
   left: 53.90625%;
-  z-index: 76;
+  z-index: 77;
   background-color: #876129;
   color: rgb(255, 255, 255);
 }
@@ -2443,24 +2475,24 @@ body {
   background-color: #876129;
 }
 
-.price ._text-23 {
+.price ._text-24 {
   position: absolute;
   top: 120px;
   left: 0;
   right: 0;
-  z-index: 100;
+  z-index: 101;
   margin: 0 auto;
   font-size: 1em;
   text-align: center;
   color: rgb(96, 69, 29);
 }
 
-.price ._text-24 {
+.price ._text-25 {
   position: absolute;
   top: 90px;
   left: 0;
   right: 0;
-  z-index: 99;
+  z-index: 100;
   margin: 0 auto;
   font: 1.5em/0.3 'PT Serif';
   text-align: center;
@@ -2468,28 +2500,28 @@ body {
   color: #60451d;
 }
 
-.question ._text-33 {
-  z-index: 42;
-  width: 80%;
-}
-
 .question ._text-34 {
-  z-index: 31;
+  z-index: 43;
   width: 80%;
 }
 
 .question ._text-35 {
-  z-index: 20;
+  z-index: 32;
   width: 80%;
 }
 
 .question ._text-36 {
-  z-index: 9;
+  z-index: 21;
+  width: 80%;
+}
+
+.question ._text-37 {
+  z-index: 10;
 }
 
 .screen1 ._text-1 {
   top: 330px;
-  z-index: 258;
+  z-index: 259;
   min-height: 59px;
   font-family: 'PT Serif';
   font-size: 1.5em;
@@ -2499,7 +2531,7 @@ body {
 
 .screen1 ._text-2 {
   top: 285px;
-  z-index: 251;
+  z-index: 252;
   width: 100%;
   min-height: 25px;
   font: 700 2.75em/0.3 'PT Serif';
@@ -2509,7 +2541,7 @@ body {
 
 .screen1 ._text-3 {
   top: 600px;
-  z-index: 250;
+  z-index: 251;
   height: 40px;
   min-height: 25px;
   font-size: 1em;
@@ -2575,7 +2607,7 @@ body {
 }
 
 ._text-2 span,
-._text-24 span,
+._text-25 span,
 .menu strong {
   border-top-width: 0;
   border-right-width: 0;
@@ -2659,36 +2691,38 @@ body {
   text-decoration: inherit;
 }
 
-.text-13 span,
 .text-14 span,
-.text-16 span {
+.text-15 span,
+.text-17 span {
   font-family: inherit;
   font-weight: 700;
   text-decoration: underline;
 }
 
 .text-18 span,
-.text-21 span {
+.text-19 span,
+.text-21 span,
+.text-22 span {
   font-family: inherit;
   font-weight: 700;
   text-decoration: inherit;
 }
 
-.text-19 span,
-.text-22 span,
+.text-20 span,
 .text-23 span,
 .text-24 span,
 .text-25 span,
 .text-26 span,
-.text-27 span {
+.text-27 span,
+.text-28 span {
   font-family: 'PT Serif';
   font-weight: 700;
   text-decoration: inherit;
 }
 
-.text-15 span,
+.text-16 span,
 .text-2 span,
-.text-37 span {
+.text-38 span {
   font-family: inherit;
   font-weight: inherit;
   text-decoration: inherit;
