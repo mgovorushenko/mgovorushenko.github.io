@@ -193,7 +193,8 @@ body {
   background: url('../images/gradient-light(3).jpg') rgb(106, 63, 21);
   background: url('../images/gradient-light(3).jpg') rgb(106, 63, 21);
   background-repeat: no-repeat;
-  background-position: center top;
+  background-size: cover;
+  background-position: center center;
 }
 
 .qu1 .image {
@@ -260,10 +261,10 @@ body {
 }
 
 .question .image {
-  bottom: 23px;
-  right: 22px;
+  bottom: 20px;
+  right: 20px;
   z-index: 19;
-  width: 10px;
+  width: 15px;
   opacity: 0.5;
 }
 
@@ -286,22 +287,22 @@ body {
 
 .question-2 p,
 .question-4 p,
-.question-6 p,
-.text-10 p,
-.text-12 p,
-.text-20 p,
+.question-8 p,
+.text-11 p,
+.text-19 p,
+.text-22 p,
 .text-23 p,
 .text-24 p,
 .text-25 p,
 .text-26 p,
 .text-27 p,
-.text-28 p,
 .text-3 p,
 .text-4 p,
 .text-5 p,
 .text-6 p,
 .text-7 p,
-.text-8 p {
+.text-8 p,
+.text-9 p {
   margin-bottom: 1em;
 }
 
@@ -320,7 +321,6 @@ body {
   position: relative;
   float: left;
   clear: both;
-  z-index: 250;
   width: 100%;
   height: 580px;
   background-image: url('../images/background2.jpg');
@@ -1138,15 +1138,6 @@ body {
 }
 
 .text-10 {
-  top: 100px;
-  left: 10%;
-  z-index: 221;
-  width: 80%;
-  font: 1.5em/0.3 'PT Serif';
-  letter-spacing: 2px;
-}
-
-.text-11 {
   top: 165px;
   left: 0;
   z-index: 220;
@@ -1154,7 +1145,7 @@ body {
   font-size: 1em;
 }
 
-.text-12 {
+.text-11 {
   top: 100px;
   right: 0;
   z-index: 209;
@@ -1162,14 +1153,14 @@ body {
   letter-spacing: 2px;
 }
 
-.text-13 {
+.text-12 {
   top: 165px;
   left: 0;
   z-index: 208;
   font-size: 1em;
 }
 
-.text-14 {
+.text-13 {
   top: 455px;
   right: 11.9982910156%;
   z-index: 203;
@@ -1179,7 +1170,7 @@ body {
   color: #533b19;
 }
 
-.text-15 {
+.text-14 {
   top: 455px;
   left: 0;
   right: 0;
@@ -1191,7 +1182,7 @@ body {
   color: #533b19;
 }
 
-.text-16 {
+.text-15 {
   top: 80px;
   left: 0;
   right: 0;
@@ -1205,7 +1196,7 @@ body {
   color: #60451d;
 }
 
-.text-17 {
+.text-16 {
   top: 455px;
   left: 11.9982910156%;
   z-index: 200;
@@ -1215,7 +1206,7 @@ body {
   color: #533b19;
 }
 
-.text-18 {
+.text-17 {
   top: 570px;
   right: 75px;
   z-index: 171;
@@ -1225,13 +1216,20 @@ body {
   text-align: center;
 }
 
-.text-19 {
+.text-18 {
   top: 570px;
   left: 200px;
   z-index: 148;
   width: 59.375%;
   font-family: 'PT Serif';
   text-align: center;
+}
+
+.text-19 {
+  top: 682px;
+  left: 5.859375%;
+  z-index: 114;
+  line-height: 0.3;
 }
 
 .text-2 {
@@ -1244,13 +1242,6 @@ body {
 }
 
 .text-20 {
-  top: 682px;
-  left: 5.859375%;
-  z-index: 114;
-  line-height: 0.3;
-}
-
-.text-21 {
   top: 190px;
   right: 75px;
   z-index: 76;
@@ -1260,7 +1251,7 @@ body {
   text-align: center;
 }
 
-.text-22 {
+.text-21 {
   top: 190px;
   left: 200px;
   z-index: 75;
@@ -1269,49 +1260,49 @@ body {
   text-align: center;
 }
 
-.text-23 {
+.text-22 {
   top: 302px;
   left: 5.859375%;
   z-index: 74;
   line-height: 0.3;
 }
 
-.text-24 {
+.text-23 {
   top: 242px;
   left: 5.859375%;
   z-index: 73;
   line-height: 0.3;
 }
 
-.text-25 {
+.text-24 {
   top: 362px;
   left: 5.859375%;
   z-index: 72;
   line-height: 0.3;
 }
 
-.text-26 {
+.text-25 {
   top: 622px;
   left: 5.859375%;
   z-index: 71;
   line-height: 0.3;
 }
 
-.text-27 {
+.text-26 {
   top: 482px;
   left: 5.859375%;
   z-index: 70;
   line-height: 0.3;
 }
 
-.text-28 {
+.text-27 {
   top: 422px;
   left: 5.859375%;
   z-index: 69;
   line-height: 0.3;
 }
 
-.text-29 {
+.text-28 {
   top: 340px;
   right: 9%;
   z-index: 63;
@@ -1319,6 +1310,16 @@ body {
   min-height: 30px;
   font-size: 0.875em;
   text-decoration: underline;
+}
+
+.text-29 {
+  top: 140px;
+  right: 9%;
+  z-index: 62;
+  width: 21.9995117187%;
+  min-height: 118px;
+  font-style: italic;
+  font-size: 1em;
 }
 
 .text-3 {
@@ -1333,16 +1334,6 @@ body {
 }
 
 .text-30 {
-  top: 140px;
-  right: 9%;
-  z-index: 62;
-  width: 21.9995117187%;
-  min-height: 118px;
-  font-style: italic;
-  font-size: 1em;
-}
-
-.text-31 {
   top: 340px;
   left: 0;
   right: 0;
@@ -1354,7 +1345,7 @@ body {
   text-decoration: underline;
 }
 
-.text-32 {
+.text-31 {
   top: 150px;
   left: 0;
   right: 0;
@@ -1366,7 +1357,7 @@ body {
   font-size: 1em;
 }
 
-.text-33 {
+.text-32 {
   top: 340px;
   left: 9%;
   z-index: 59;
@@ -1376,7 +1367,7 @@ body {
   text-decoration: underline;
 }
 
-.text-34 {
+.text-33 {
   top: 140px;
   left: 9%;
   z-index: 58;
@@ -1386,7 +1377,7 @@ body {
   font-size: 1em;
 }
 
-.text-35 {
+.text-34 {
   top: 80px;
   right: 9%;
   z-index: 57;
@@ -1398,7 +1389,7 @@ body {
   letter-spacing: 1px;
 }
 
-.text-36 {
+.text-35 {
   top: 80px;
   left: 0;
   right: 0;
@@ -1412,7 +1403,7 @@ body {
   letter-spacing: 1px;
 }
 
-.text-37 {
+.text-36 {
   top: 80px;
   left: 9%;
   z-index: 55;
@@ -1424,7 +1415,7 @@ body {
   letter-spacing: 1px;
 }
 
-.text-38 {
+.text-37 {
   top: 80px;
   left: 0;
   right: 0;
@@ -1436,12 +1427,21 @@ body {
   color: rgb(255, 255, 255);
 }
 
-.text-39 {
+.text-38 {
   bottom: 25px;
   left: 128px;
   z-index: 7;
   font-size: 0.875em;
   text-decoration: underline;
+}
+
+.text-39 {
+  bottom: 20px;
+  right: 38px;
+  z-index: 6;
+  min-height: 38px;
+  font-size: 1em;
+  text-align: right;
 }
 
 .text-4 {
@@ -1459,22 +1459,13 @@ body {
 
 .text-40 {
   bottom: 20px;
-  right: 38px;
-  z-index: 6;
-  min-height: 38px;
-  font-size: 1em;
-  text-align: right;
-}
-
-.text-41 {
-  bottom: 20px;
   right: 320px;
   z-index: 5;
   min-height: 38px;
   font-size: 1em;
 }
 
-.text-42 {
+.text-41 {
   bottom: 35px;
   left: 128px;
   z-index: 3;
@@ -1482,9 +1473,8 @@ body {
   font-size: 1em;
 }
 
-.text-39:hover,
-.text-42:hover,
-.text-9:hover {
+.text-38:hover,
+.text-41:hover {
   text-decoration: none;
 }
 
@@ -1535,12 +1525,12 @@ body {
 }
 
 .text-9 {
-  bottom: 20px;
-  left: 128px;
-  z-index: 262;
-  min-height: 38px;
-  font-size: 1em;
-  color: rgb(255, 255, 255);
+  top: 100px;
+  left: 10%;
+  z-index: 221;
+  width: 80%;
+  font: 1.5em/0.3 'PT Serif';
+  letter-spacing: 2px;
 }
 
 .white-circle-1 {
@@ -1567,7 +1557,7 @@ body {
   z-index: 210;
 }
 
-.faq ._text-38 {
+.faq ._text-37 {
   position: absolute;
   top: 80px;
   left: 0;
@@ -2475,7 +2465,7 @@ body {
   background-color: #876129;
 }
 
-.price ._text-24 {
+.price ._text-23 {
   position: absolute;
   top: 120px;
   left: 0;
@@ -2487,7 +2477,7 @@ body {
   color: rgb(96, 69, 29);
 }
 
-.price ._text-25 {
+.price ._text-24 {
   position: absolute;
   top: 90px;
   left: 0;
@@ -2500,22 +2490,22 @@ body {
   color: #60451d;
 }
 
-.question ._text-34 {
+.question ._text-33 {
   z-index: 43;
   width: 80%;
 }
 
-.question ._text-35 {
+.question ._text-34 {
   z-index: 32;
   width: 80%;
 }
 
-.question ._text-36 {
+.question ._text-35 {
   z-index: 21;
   width: 80%;
 }
 
-.question ._text-37 {
+.question ._text-36 {
   z-index: 10;
 }
 
@@ -2606,35 +2596,6 @@ body {
   white-space: normal;
 }
 
-._text-2 span,
-._text-25 span,
-.menu strong {
-  border-top-width: 0;
-  border-right-width: 0;
-  border-bottom-width: 0;
-  border-left-width: 0;
-  border-color: transparent;
-  border-style: none;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-  background-color: transparent;
-  font-family: inherit;
-  font-style: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  text-decoration: inherit;
-  letter-spacing: inherit;
-  word-spacing: inherit;
-  color: inherit;
-  opacity: 1;
-  word-break: normal;
-  word-wrap: normal;
-  white-space: normal;
-}
-
 .question span {
   border-top-width: 0;
   border-right-width: 0;
@@ -2653,6 +2614,36 @@ body {
   font-weight: 700;
   text-transform: inherit;
   text-decoration: underline;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+._text-2 span,
+._text-24 span,
+.menu strong,
+.text a {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  text-decoration: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
   color: inherit;
@@ -2691,38 +2682,38 @@ body {
   text-decoration: inherit;
 }
 
+.text-13 span,
 .text-14 span,
-.text-15 span,
-.text-17 span {
+.text-16 span {
   font-family: inherit;
   font-weight: 700;
   text-decoration: underline;
 }
 
+.text-17 span,
 .text-18 span,
-.text-19 span,
-.text-21 span,
-.text-22 span {
+.text-20 span,
+.text-21 span {
   font-family: inherit;
   font-weight: 700;
   text-decoration: inherit;
 }
 
-.text-20 span,
+.text-19 span,
+.text-22 span,
 .text-23 span,
 .text-24 span,
 .text-25 span,
 .text-26 span,
-.text-27 span,
-.text-28 span {
+.text-27 span {
   font-family: 'PT Serif';
   font-weight: 700;
   text-decoration: inherit;
 }
 
-.text-16 span,
+.text-15 span,
 .text-2 span,
-.text-38 span {
+.text-37 span {
   font-family: inherit;
   font-weight: inherit;
   text-decoration: inherit;

@@ -22,6 +22,7 @@ body {
 .element {
   position: absolute;
   top: 400px;
+  left: 41.40625%;
   height: 4px;
 }
 
@@ -50,18 +51,14 @@ body {
 }
 
 .element-1 {
-  left: 41.40625%;
   z-index: 2;
   width: 15%;
   background-color: rgb(110, 78, 31);
 }
 
 .element-2 {
-  left: 0;
-  right: 0;
   z-index: 1;
   width: 220px;
-  margin: 0 auto;
   background-color: rgb(255, 255, 255);
 }
 
